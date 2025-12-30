@@ -3,6 +3,8 @@
 ## Overview
 This project implements a **stacked ensemble model** to predict nuclear binding energies using data from the AME2020 mass evaluation.
 
+This work is a follow-up from the paper [arXiv:2004.14196v2](https://arxiv.org/abs/2004.14196v2), which achieved an RMSE of 0.58 MeV. This implementation achieves an improved RMSE of 0.094 MeV, although with an updated dataset and different train/validation/test splitting strategy.
+
 ## Model Architecture
 
 The model uses a two-stage approach:
